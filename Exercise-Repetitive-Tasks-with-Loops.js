@@ -59,7 +59,7 @@ console.log("Countdown Finished!");
 2021
 2022
 */
-var count = 2018;
-while (count < 2023) {
-    console.log(count++);
+var year = 2018;
+while (year < 2023) {
+    console.log(year++);
 }
