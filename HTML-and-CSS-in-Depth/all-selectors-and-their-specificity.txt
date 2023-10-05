@@ -14,6 +14,21 @@ Classes, attributes, and pseudo-classes
 
 Elements and pseudo-elements 
 
+
+To find what specificity takes precedent in CSS:
+
+style | ID | class/pseudo-class/attribute | # of Elements
+num num                num                                   num
+
+example:
+
+style | ID | class/pseudo-class/attribute | # of Elements
+ 1        0                          0                                 0
+
+would be 1000.
+
+
+
 Inline styles
 Inline styles are attached to the elements within your HTML code like with the ‘style’ attribute. inline styles have the highest specificity. That means that rules that are defined as inline styles will be applied irrespective of other rules. 
 
